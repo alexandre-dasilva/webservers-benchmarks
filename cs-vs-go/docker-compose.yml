@@ -1,0 +1,10 @@
+version: '3'
+services:
+  goapp:
+    image: goapp
+    ports:
+    - "10000:8080"
+  csharpapp:
+    image: csharp-base-app
+    ports:
+    - "10001:80"
